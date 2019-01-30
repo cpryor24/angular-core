@@ -13,6 +13,7 @@ import { MaterialModule } from '@workshop/material';
 import { UiLoginModule } from '@workshop/ui-login';
 import { AppRoutingModule } from './app.routing.module';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [AppComponent],
@@ -22,6 +23,7 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserAnimationsModule,
     HttpClientModule,
     MaterialModule,
+    FormsModule,
     UiLoginModule,
     AppRoutingModule,
   ],
