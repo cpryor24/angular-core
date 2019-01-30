@@ -18,7 +18,7 @@ export class ProjectsComponent implements OnInit {
 
   ngOnInit() {
     this.getProjects();
-    this.resetProject()
+    this.resetProject();
   }
 
   selectProject(project) {
